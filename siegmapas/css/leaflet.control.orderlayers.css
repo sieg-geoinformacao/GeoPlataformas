@@ -1,0 +1,138 @@
+.leaflet-control-layers {
+	
+	width: 320px;
+	padding: 2% !important;
+	background: rgba(16,114,163,0.9);
+	color: white;
+	font-weight: bold;
+	font-size:15px;
+	font-family:'Ebrima';
+	max-height:700px;
+	overflow:auto;
+	
+}
+
+.leaflet-control-layers-separator {
+	float: left;
+    	width: 50%;
+    
+}
+
+.leaflet-control-layers .leaflet-control-layers-title {
+	font-size: 1.2em;
+	margin: 0;
+	font-weight: bold;
+	
+}
+
+.leaflet-control-layers .leaflet-row {
+	float: left;
+   	width: 100%;
+	
+    
+}   
+
+.leaflet-control-layers .leaflet-row .leaflet-input {
+	
+	float: left;
+	width: 8%;
+	
+	
+}
+
+.leaflet-control-layers .leaflet-row .leaflet-name {
+	
+	float: left;
+	padding-top:1%;
+	width: 135px;
+	font-size:10px;
+	vertical-align:middle; 
+	font-family:'Ebrima';
+	
+}
+.leaflet-control-layers .leaflet-row .leaflet-colupdown {
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 40%;
+    width: 5%;
+    
+    opacity: 1;
+    cursor: pointer;
+}
+.leaflet-control-layers .leaflet-row .leaflet-up {
+	float: left;
+	background-image: url(../images/arrow-up.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    height:10px;
+    width: 16px;
+    
+    opacity: 1;
+    cursor: pointer;
+}
+.leaflet-control-layers .leaflet-row .leaflet-down {
+	float: left;
+	background-image: url(../images/arrow-down.png);
+	background-repeat: no-repeat;
+	background-position: right;
+    height: 8px;
+    width: 16px;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.leaflet-control-layers .leaflet-row .leaflet-opacity{
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+    height:16px;
+    width:40px; 
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.leaflet-control-layers .leaflet-row .leaflet-remove{
+	float: left;
+	background-image: url(../images/remove.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 16px;
+    width: 22px;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.leaflet-control-layers .leaflet-row .leaflet-download{
+	float: left;
+	background-image: url(../images/download.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 16px;
+    width: 22px;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.leaflet-control-layers .leaflet-row .leaflet-legend{
+	float: left;
+	background-image: url(../images/legend.png);
+	background-repeat: no-repeat;
+	background-position: right;
+    height: 16px;
+    width: 22px;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+span{
+	font-size:11px;
+}
+
+
+
+
+
+
+
+

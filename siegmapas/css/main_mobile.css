@@ -1,0 +1,46 @@
+body, html, .container-fluid {
+     position:relative
+     height: 100%;
+     width:100%;
+}      
+.map{
+  position:fixed;
+  top:35px; 
+  bottom:0px;	  
+  width:100%;
+  
+}
+
+label {
+  font-weight: normal;
+  font-size:9px;
+  vertical-align:middle; 
+}
+
+.modaldata{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    
+    border: white;
+    border-style: solid;
+    border-radius:2px;
+    box-shadow: 0 1px 5px rgba(0,0,0,1);
+    background: rgba(255,255,255,1.0); 
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 1.0s;
+    animation-name: slideIn;
+    animation-duration: 0.3s
+}
+select {
+      background-color:white; 
+      border:1px solid;
+      box-sizing:border-box; 
+      color:black; 
+      white-space:pre;
+      overflow:visible
+}
+select:-internal-list-box option:checked {
+  background-color: -internal-active-list-box-selection;
+  color: -internal-active-list-box-selection-text;
+}

@@ -1,0 +1,243 @@
+html, body{
+    min-width:100%;
+    font-size: 85%;
+    font-family:'Ebrima';
+    
+}
+
+a {
+    vertical-align: 30%;
+    text-decoration:none;
+    
+}
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+label{
+   padding-left:5px 
+}
+input{
+   padding-left:10px      
+}
+.map{
+  position:fixed;
+  top:35px;
+  height:100%; 
+  width:75%;
+  left:25%;
+  bottom:0px;
+}
+.header {
+    position:fixed;
+    top:0px;
+    height:40px;
+    right:0%;
+    left:0%;
+    background:rgba(16,114,163,1);
+     
+    z-index:2;
+    margin:auto
+    
+}
+.title {
+    left:10%;
+    color:white;
+}
+.logo {
+    position: fixed;
+    z-index:3;
+    right:5px;
+    top:0px;
+    
+}
+.logoSieg {
+    position: absolute;
+    z-index:3;
+    left:5px;
+    top:0px;
+    
+}
+#selecao_principal{
+    overflow:auto;
+    direction:ltr;
+
+}
+.table {
+    position:absolute;
+    top:35px;
+    right:75%;
+    left:0%;
+    bottom:0%;  
+    z-index:0;
+    overflow:auto;
+    direction:ltr;
+    bottom:0px;
+}
+
+.Listae {
+    padding-left:15px ;
+
+}
+.Listbc {
+    padding-left:15px ;
+}
+.Listbio {
+    padding-left:15px ;
+}
+.Listcli {
+    padding-left:15px ;
+}
+.Listcus {
+    padding-left:15px ;
+}
+.Listdia {
+    padding-left:15px ;
+}
+.Listedu {
+    padding-left:15px ;
+}
+.Listgel {
+    padding-left:15px ;
+}
+.Listgem {
+    padding-left:15px ;
+}
+.Listind {
+    padding-left:15px ;
+}
+.Listinf {
+    padding-left:15px ;
+}
+.Listmae {
+    padding-left:15px ;
+}
+.Listmac {
+    padding-left:15px ;
+}
+.Listmah {
+    padding-left:15px ;
+}
+.Listmai {
+    padding-left:15px ;
+}
+.Listmmb {
+    padding-left:15px ;
+}
+.Listmmf {
+    padding-left:15px ;
+}
+.Listmpm {
+    padding-left:15px ;
+}
+.Listmaz {
+    padding-left:15px ;
+}
+.Listreh {
+    padding-left:15px ;
+}
+.Listsol {
+    padding-left:15px ;
+}
+.Listimg {
+    padding-left:15px ;
+}
+.Listalos {
+    padding-left:15px ;
+}
+.Listcbers {
+    padding-left:15px ;
+}
+.ListSRTM {
+    padding-left:15px ;
+}
+.ListSASG {
+    padding-left:15px ;
+}
+.List2004 {
+    padding-left:15px ;
+}
+.List2005 {
+    padding-left:15px ;
+}
+.List2006 {
+    padding-left:15px ;
+}
+.List2008 {
+    padding-left:15px ;
+}
+.ListLandsat7 {
+    padding-left:15px ;
+}
+.List2001 {
+    padding-left:15px ;
+}
+.List2002_2003 {
+    padding-left:15px ;
+}
+.List2013L8 {
+    padding-left:15px ;
+}
+.ListLandsat8 {
+    padding-left:15px ;
+}
+}
+.List2015L8 {
+    padding-left:15px ;
+}
+.List2016L8 {
+    padding-left:15px 
+}
+.ListResourcesat_2 {
+    padding-left:15px ;
+}
+.L2015R2{
+    padding-left:25px ;
+}
+.L2016R2{
+    padding-left:25px ;
+}
+.List2015R2{
+    padding-left:25px ;
+}
+.List2016R2{
+    padding-left:25px ;
+}
+label{
+    vertical-align: 2px;
+}
+.ListSentinelano{
+    padding-left:15px ;
+}
+
+.ListSentinel2016{
+    padding-left:15px ;
+}
+.ListS2016{
+    padding-left:25px ;
+}
+img{
+    float:right;
+    padding:2px;
+    cursor: pointer;
+}
+.img{
+    
+}
+.listz{
+    padding-left:25px ;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.info {
+    padding: 2px 4px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+}

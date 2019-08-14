@@ -1,0 +1,11 @@
+.leaflet-control-zoom-min {
+  
+  background-image: url(../images/zoomextent.png);
+  background-size: 20px 20px;
+}
+.leaflet-control-zoom-min:focus {
+  outline: 0;
+}
+.leaflet-control-zoom-min.leaflet-disabled {
+  background-image: url(../images/zoomextent.png)
+}  

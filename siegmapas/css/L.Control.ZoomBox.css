@@ -1,0 +1,18 @@
+.leaflet-zoom-box-control {
+    color: #FFF;
+ 	background-color: transparent;
+ 	background-image: url(../images/zoomrect.png);
+ 	
+ }
+.leaflet-zoom-box-control.active a {
+    color: #FFF;
+    background-color: #545454;
+    background-image: url(../images/zoomrect.png);
+}
+.leaflet-zoom-box-crosshair {
+    cursor: crosshair !important;
+}
+.leaflet-zoom-box-icon {
+	background: transparent no-repeat center center;
+	background-image: url(../images/zoomrect.png);
+}

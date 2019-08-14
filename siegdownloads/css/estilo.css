@@ -1,0 +1,169 @@
+img{
+  float:right;
+  padding:2px;
+  cursor: pointer;
+}
+
+.container {
+  margin-left: 5px;
+  margin-top: 45px;
+  padding-left: 0px;
+  padding-right: 0px;
+  z-index:0;
+  overflow:auto;
+  direction:ltr;
+  white-space: normal;
+}
+a:hover{ 
+  cursor: pointer;
+}
+#table{
+  position:fixed;
+  top:35px;
+  right:70%;
+  left:0%;
+  bottom:0%;  
+  z-index:0;
+  overflow:auto;
+  direction:ltr;
+  bottom:0px;
+}
+
+#table button {
+   white-space: normal;
+}
+
+.map{
+  position:fixed;
+  top:35px;
+  height:100%; 
+  width:70%;
+  left:30%;
+  bottom:0px;
+}
+
+.header {
+  position:fixed;
+  top:0px;
+  height:40px;
+  right:0%;
+  left:0%;
+  background:rgba(16,114,163,1);
+  z-index:2;
+  margin:auto
+}
+
+.title {
+  left:10%;
+  color:white;
+}
+
+.logo {
+  position: fixed;
+  z-index:3;
+  right:5px;
+  top:0px; 
+}
+
+.logoSieg {
+  position: absolute;
+  z-index:3;
+  left:5px;
+  top:0px;
+}
+
+.legend {
+  line-height: 18px;
+  color: #555;
+}
+
+.info {
+  padding: 2px 4px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.btn{
+  border: none;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+  background-color: #fff;
+  outline: 0;
+}
+/*Background #FFF e border none Btn Segundo nivel e Terceiro nivel*/
+/*Especificando id das ul de Segundo nivel e Terceiro nivel*/
+/*Usando !important para sobrescrever todas as configurações da class .list-group-item .list-group*/
+#imagens_de_satelite>li{
+  background-color: #FFF !important;
+  border: none;
+}
+
+/*Pega o quinto elemento li dentro da ul*/
+#diagnostico li:nth-child(5){
+  background-color: #FFF !important;
+  border: none;
+}
+
+#cbers2_ccd>li{
+  background-color: #FFF !important;
+  border: none;
+}
+
+#landsat7_etm>li{
+  background-color: #FFF !important;
+  border: none;
+}
+
+#landsat8_sensor_oli>li{
+  background-color: #FFF !important;
+  border: none;
+}
+
+#resourcesat_2>li{
+  background-color: #FFF !important;
+  border: none;
+}
+
+#sentinel_2>li{
+  background-color: #FFF !important;
+  border: none;
+}
+/* ----------------- END -----------------------------------*/
+
+#selecao_principal {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#selecao_principal button{
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#selecao_principal button .glyphicon{
+	color: #f1c40f;
+	padding-right: 10px;
+}
+
+#selecao_principal ul li button .glyphicon{
+  color: #f1c40f;
+  padding-right: 10px;
+}
+
+#selecao_principal ul>li {
+	background-color: #D3D3D3;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 13px;
+  white-space: normal;/*Não remover esta linha, pois e responsável por fazer a quebra de linhas em texto grande nas opcões*/
+  vertical-align: 2px;
+}
+
+#selecao_principal ul>li .glyphicon {
+	color:rgba(16,114,163,1);
+}

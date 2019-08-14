@@ -1,0 +1,232 @@
+body, html, .container-fluid {
+     position:relative
+     height: 100%;
+     width:100%;
+}
+
+label {
+  font-weight: bold;
+  font-size:10px;
+  color:white;
+}
+#header{
+    background:rgba(16,114,163,1.0);
+    box-shadow: 0 0px 0px rgba(0,0,0,1);
+    
+  	
+}
+.map{
+  position:absolute;
+  bottom:0px; 
+  width:100%;
+  
+	
+}
+#modaldata{
+    display: none; 
+    position: absolute; 
+    z-index: 3; 
+    overflow: auto; 
+    border: white;
+    border-style: solid;
+    border-radius:2px;
+    box-shadow: 0 1px 5px rgba(0,0,0,1);
+    background: rgba(255,255,255,1.0); 
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 1.0s;
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+    width:100%;
+}
+#modalpoint{
+    display: none; 
+    position: absolute; 
+    z-index: 3; 
+    overflow: auto; 
+    border: white;
+    border-style: solid;
+    border-radius:2px;
+    box-shadow: 0 1px 5px rgba(0,0,0,1);
+    background: rgba(255,255,255,1.0); 
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 1.0s;
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+    width:100%;
+}
+#modalbase{
+    display: none; 
+    position: absolute; 
+    z-index: 3; 
+    overflow: auto; 
+    border: white;
+    border-style: solid;
+    border-radius:2px;
+    box-shadow: 0 1px 5px rgba(0,0,0,1);
+    background: rgba(255,255,255,1.0); 
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 1.0s;
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+    width:100%;
+}
+.zextent {
+    position: absolute;
+    z-index:3;
+    left:0.7%;
+    top: 10%;
+    height:3.5%;
+    width:1.8%;
+    border-radius:2px;
+    box-shadow: 0 1px 5px rgba(0,0,0,1);
+    background: repeating-linear-gradient(#e0e0e0, #757575 100%)
+}
+.zoomBox {
+    position: absolute;
+    z-index:3;
+    left:0.7%;
+    top: 15%;
+    height:3.5%;
+    width:1.8%;
+    border-radius:2px;
+    box-shadow: 0 1px 5px rgba(0,0,0,1);
+    background: repeating-linear-gradient(#e0e0e0, #757575 100%)
+}
+
+.map .lat{
+    z-index: 1;
+    position:absolute;
+    height:12%;
+    left:0.0%;
+    width:40%;
+}
+.map .lon{
+   z-index: 1;
+    position:absolute;
+    height:12%; 
+    left:40%;
+    width:40%;
+}
+.map .goxy{
+   z-index: 1;
+   position:absolute;
+   height:19%;
+   left:85%;
+   width:15%;
+}
+.map .goxydms{
+   z-index: 1;
+   position:absolute;
+   height:34%;
+   left:85%;
+   width:15%;
+}
+.map .grau{
+   z-index: 1;
+   position:absolute;
+   height:12%;
+   left:20.0%;
+   width:20%;
+}
+.map .min{
+   z-index: 1;
+   position:absolute;
+   height:12%; 
+   left:40%;
+   width:20%;
+}
+.map .seg{
+   z-index: 1;
+   position:absolute;
+   height:12%; 
+   left:60%;
+   width:20%;
+}
+#logoleaflet{
+    z-index: 1;
+    position:absolute;
+    bottom:0%;
+    right:0%;
+}
+input[type=image]{
+    height:51.80%; 
+    width:1.5%;   
+}
+/* Configure in Bronwser Chrome, Safari and Opera */
+input[type=range]{
+    -webkit-appearance: none;
+    background:none;   
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 2px;   
+    background: #DCDCDC;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    margin-top: -13.5%;
+}
+/* Configure in Mozilla */
+input[type=range]{
+    -webkit-appearance: none;
+    background:none;   
+}
+
+input[type=range]::-moz-range-track {
+    
+    height: 2px;   
+    background: #DCDCDC;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-slider-runnable-track {
+    background: #DCDCDC;
+}
+.textool{
+    vertical-align: 30%;
+    padding-left:5%; 
+    font-family: 'Ebrima';
+    font-size:12px;
+    color:black;
+}
+.addLayer{
+    position:absolute;
+    left:1%;
+    width:93%;
+    bottom:2%;
+    order: white;
+    border-style: solid;
+    border-radius:4px;
+    box-shadow: 0 1px 5px rgba(0,0,0,1);
+    background: rgba(255,255,255,1.0);  
+}
+
+.prMap {
+   
+    padding:2px;
+    background: white;
+    z-index:20;
+}
+
